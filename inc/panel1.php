@@ -47,10 +47,15 @@
                             onchange="previewPhoto()">
                     </div>
 
+
                 </td>
                 <td width="50%" rowspan="3" align="center">
                     <p><u>Photo preview</u></p><br>
                     <img id="previewFilePhoto" src="" height="180px" />
+                    <p>
+                        <font color="red">Catatan : Kolom dengan atribut asterix (<b>*</b>) wajib di isi.
+                    </p>
+                    </p>
                 </td>
             </tr>
             <tr>
@@ -80,7 +85,9 @@
         <div class="col">
             <div class="md-form md-outline">
                 <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
-                <label for="sampel" class="active">Sampel</label>
+                <label for="sampel" class="active">
+                    <font color="red">*</font>Sampel
+                </label>
             </div>
         </div>
         <div class="col">
@@ -134,10 +141,12 @@
     <div class="row">
         <!-- col -->
         <div class="col-3">
-            <div class="md-form md-outline">
-                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
-                <label for="sampel" class="active">Sampel</label>
-            </div>
+        <select class="mdb-select md-form">
+                <option value="" disabled selected><font color="red">*</font>Jenis Kelamin</option>
+                <option value="0">Wanita</option>
+                <option value="1">Pria</option>
+              </select>
+              <button class="btn-save btn btn-primary btn-sm">Save</button>
         </div>
         <!-- col -->
         <div class="col-3">

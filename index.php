@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once "lib/lib.start.php";
 $job_kode = isset($_GET['id']) ? $_GET['id'] : '';
 
@@ -13,9 +13,9 @@ AND job_kode='$job_kode'
 //echo $sql; die();
 
 $rs = DB::queryFirstRow($sql);
-if(count($rs)<1){
+if (count($rs) < 1) {
     header("Location: ?id=0");
-die();
+    die();
 }
 
 ?>
@@ -98,7 +98,7 @@ die();
             <!-- Breadcrumb -->
             <div class="breadcrumb-dn mr-auto">
                 <p>Formulir Aplikasi Pelamar</p>
-                
+
             </div>
 
             <!-- Navbar links -->
@@ -119,7 +119,7 @@ die();
 
     </header>
     <!-- Main Navigation -->
-    
+
     <!-- Main layout -->
     <?php include "inc/main.php"; ?>
     <!-- Main layout -->
@@ -161,6 +161,11 @@ die();
             wheelSpeed: 2,
             wheelPropagation: true,
             minScrollbarLength: 20
+        });
+
+        // Material Select Initialization
+        $(document).ready(function () {
+            $('.mdb-select').materialSelect();
         });
 
 
