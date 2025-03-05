@@ -79,87 +79,95 @@
         <!-- col -->
         <div class="col">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="md-form md-outline">
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
         <!-- col -->
         <div class="col">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
         <!-- col -->
         <div class="col">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
-            </div>
-        </div>
-        <!-- col -->
-        <div class="col">
-            <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
     </div>
     <!-- row -->
-
     <!-- row -->
     <div class="row">
         <!-- col -->
         <div class="col-6">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
         <!-- col -->
         <div class="col-3">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
         <!-- col -->
         <div class="col-3">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
     </div>
     <!-- row -->
-
     <!-- row -->
     <div class="row">
         <!-- col -->
         <div class="col-3">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
         <!-- col -->
         <div class="col-3">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
         <!-- col -->
         <div class="col-6">
             <div class="md-form md-outline">
-                <input placeholder="Nama Lengkap" type="text" id="namaLengkap" name="namaLengkap" class="form-control">
-                <label for="namaLengkap" class="active">Nama Lengkap</label>
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
+            </div>
+        </div>
+    </div>
+    <!-- row -->
+    <!-- row -->
+    <div class="row">
+        <!-- col -->
+        <div class="col-12">
+            <div class="md-form md-outline">
+                <input placeholder="Sampel" type="text" id="sampel" name="sampel" class="form-control">
+                <label for="sampel" class="active">Sampel</label>
             </div>
         </div>
     </div>
     <!-- row -->
 
-    
+
 
 
 
