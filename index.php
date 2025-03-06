@@ -46,44 +46,8 @@ if (count($rs) < 1) {
     <header>
 
         <!-- Sidebar navigation -->
-        <div id="slide-out" class="side-nav sn-bg-4 fixed">
-            <ul class="custom-scrollbar">
-
-                <!-- Logo -->
-                <li class="logo-sn waves-effect py-3">
-                    <div class="text-center">
-                        <a href="#" class="pl-0"><img
-                                src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"></a>
-                    </div>
-                </li>
-
-                <!-- Search Form -->
-                <li>
-                    <form class="search-form" role="search">
-                        <div class="md-form mt-0 waves-light">
-                            <input type="text" class="form-control py-2" placeholder="Search">
-                        </div>
-                    </form>
-                </li>
-
-                <!-- Side navigation links -->
-                <li>
-                    <ul class="collapsible collapsible-accordion">
-
-                        <li>
-                            <a class="collapsible-header waves-effect arrow-r">
-                                <i class="w-fa fas fa-tachometer-alt"></i>Dashboards<i
-                                    class="fas fa-angle-down rotate-icon"></i>
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </li>
-                <!-- Side navigation links -->
-
-            </ul>
-            <div class="sidenav-bg mask-strong"></div>
+        <div id="slide-out" class="side-nav sn-bg-4">
+            
         </div>
         <!-- Sidebar navigation -->
 
@@ -91,8 +55,9 @@ if (count($rs) < 1) {
         <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar double-nav">
 
             <!-- SideNav slide-out button -->
-            <div class="float-left disabled">
-                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fas fa-bars"></i></a>
+            <div class="float-left">
+                <!--<a href="#" data-activates="slide-out" class="button-collapse"><i class="fas fa-bars"></i></a>-->
+                &nbsp;
             </div>
 
             <!-- Breadcrumb -->
@@ -152,30 +117,32 @@ if (count($rs) < 1) {
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="lib/mdb/js/mdb.min.js"></script>
     <!-- Custom scripts -->
+    <!--<script type="text/javascript" src="lib/skripjs.js"></script>-->
+    <!--<script type="text/javascript" src="lib/js.js"></script>-->
     <script>
         // SideNav Initialization
-        $(".button-collapse").sideNav();
+       // $(".button-collapse").sideNav();
+        
 
-        var container = document.querySelector('.custom-scrollbar');
-        var ps = new PerfectScrollbar(container, {
-            wheelSpeed: 2,
-            wheelPropagation: true,
-            minScrollbarLength: 20
-        });
+        // Data Picker Initialization
+        //$(".datepicker").pickadate();
+        $(".datepicker").pickadate({
+            format: 'yyyy-mm-dd'
+        })
 
         // Material Select Initialization
         $(document).ready(function () {
-            $('.mdb-select').materialSelect();
+            $(".mdb-select").materialSelect();
         });
 
-
-    </script>
-    <script type="text/javascript">
         function previewPhoto() {
             previewFilePhoto.src = URL.createObjectURL(event.target.files[0]);
             filePhotoName.value = URL.createObjectURL(event.target.files[0]);
         }
+
     </script>
+
+
 </body>
 
 </html>
